@@ -1,6 +1,9 @@
-1. Web browseri extension
-- video player skip laul, reklaam jne. Näitkes youtubeis paned laulu peale ja see laul kuvab playeris.
-- Anomalya (performance) leidia veebilehtedel. Lihtne mini terminaal mis kasutades otsib performance vigasid lehel (võibolla ka taskmanagerist) ja kuvab normidest lähtuvalt andmed.
-2. Veebileht firmale
+Chrome extension 
+List that shows users(gmail) active subscriptions 
+* Extension  gets acces to users gmail inbox and sees every new email that lands in the users inbox.
+* Makes a pull request to get a copy of the email. runs a scan on it that looks out for trigger words related to subscritions.
+* If triggerwords = true triggers hopup to appear asking if user wants to add new subscirbtion.
+* Form for user to add manually a subscribtion to extension list
+* form saves the subscription domain name and duration to chrome.local.storage (browser storage) appears as a list.
 
   
